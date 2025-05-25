@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Gangasravani12/ohbs-config.git
+          default-label: main   # or whatever your branch is
+          search-paths: .
+
