@@ -1,0 +1,38 @@
+/* src/components/Testimonials.css */
+.testimonials {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .testimonials h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  .testi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .testi-card {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  }
+  .quote {
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  .author {
+    text-align: right;
+    font-weight: bold;
+    color: #333;
+  }
+    .author span {
+        display: block;
+        font-size: 0.9em;
+        color: #777;
+    }  

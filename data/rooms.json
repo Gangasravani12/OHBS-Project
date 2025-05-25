@@ -1,0 +1,38 @@
+[
+  {
+    "id": "101",
+    "type": "Single",
+    "pricePerNight": 120,
+    "status": "Available"
+  },
+  {
+    "id": "102",
+    "type": "Double",
+    "pricePerNight": 150,
+    "status": "Occupied"
+  },
+  {
+    "id": "103",
+    "type": "Suite",
+    "pricePerNight": 250,
+    "status": "Available"
+  },
+  {
+    "id": "104",
+    "type": "Deluxe",
+    "pricePerNight": 200,
+    "status": "Occupied"
+  },
+  {
+    "id": "105",
+    "type": "Family",
+    "pricePerNight": 300,
+    "status": "Available"
+  },
+  {
+    "id": "106",
+    "type": "Family",
+    "pricePerNight": 300,
+    "status": "Maintenance"
+  }
+]

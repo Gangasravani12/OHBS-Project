@@ -1,0 +1,89 @@
+.profile-page {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+.booking-list {
+  list-style: none;
+  padding: 0;
+}
+.booking-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 12px;
+  padding: 12px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+.btn-cancel {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-cancel:hover {
+  background: #c82333;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex; align-items: center; justify-content: center;
+}
+.modal {
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 90%;
+}
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 16px;
+}
+.modal-buttons button {
+  padding: 6px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.modal-buttons button:first-child {
+  background: #dc3545;
+  color: #fff;
+}
+.modal-buttons button:last-child {
+  background: #6c757d;
+  color: #fff;
+}
+.modal-buttons button:first-child:hover {
+  background: #c82333;
+}
+.modal-buttons button:last-child:hover {
+  background: #5a6268;
+}
+.modal-header {
+  font-size: 1.5em;
+  margin-bottom: 16px;
+}
+.btn-update-profile {
+  margin-top: 1rem;
+  background-color: #0077cc;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-update-profile:hover {
+  background-color: #005fa3;
+}

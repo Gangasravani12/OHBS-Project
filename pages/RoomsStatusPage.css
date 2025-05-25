@@ -1,0 +1,54 @@
+.rooms-status-page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+.status-controls {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.status-controls label {
+  margin-right: 8px;
+  font-weight: 500;
+  color: #333;
+}
+.sort-select {
+  padding: 6px 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.rooms-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.rooms-table th,
+.rooms-table td {
+  padding: 12px 8px;
+  text-align: left;
+}
+.rooms-table thead {
+  background: #f0f0f0;
+}
+.rooms-table tr:nth-child(even) {
+  background: #fafafa;
+}
+.status-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #fff;
+}
+.status-badge.available {
+  background: #28a745;  /* green */
+}
+.status-badge.occupied {
+  background: #dc3545;  /* red */
+}
+.status-badge.maintenance {
+  background: #ffc107;  /* yellow */
+}

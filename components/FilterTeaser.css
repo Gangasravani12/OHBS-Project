@@ -1,0 +1,48 @@
+/* src/components/FilterTeaser.css */
+.filter-teaser {
+  background: #fff;
+  padding: 24px 16px;
+  margin: 32px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.filter-teaser h2 {
+  margin-bottom: 16px;
+  color: #333;
+}
+.teaser-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.control {
+  flex: 1 1 200px;
+  text-align: left;
+}
+.control label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.9rem;
+  color: #555;
+}
+.control input[type=range], .control select {
+  width: 100%;
+}
+.filter-teaser button {
+  background: #003580;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  align-self: center;
+}
+.filter-teaser button:hover {
+  background: #002d5a;
+}
+.filter-teaser .reset-button {
+  background: #f44336;
+}

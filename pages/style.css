@@ -1,0 +1,22 @@
+/* @font-face {
+  font-family: 'Avenir Next';
+  src: url('/assets/fonts/avenir-next/AvenirNextLTPro-Regular.woff2') format('woff2');
+  font-weight: 400;
+} */
+.font-raleway {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+.font-raleway-small {
+ font-family: 'Raleway', sans-serif;
+  font-size: 0.875em; /* small size */
+}
+.font-raleway-medium {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.4em; /* medium size */
+}
+
+.font-raleway-large {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2em; /* large size */
+}

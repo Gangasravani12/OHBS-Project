@@ -1,0 +1,55 @@
+/* src/pages/ProfileUpdatePage.css */
+.profile-update-page {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.profile-update-page h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.profile-update-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.profile-update-page label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.profile-update-page input,
+.profile-update-page select {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+legend {
+  font-weight: bold;
+}
+
+button[type='submit'] {
+  background-color: #0077cc;
+  color: white;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+button[type='submit']:hover {
+  background-color: #005fa3;
+}
+.profile-update-page .error {
+  color: red;
+  font-size: 0.875rem;
+}

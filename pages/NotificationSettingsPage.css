@@ -1,0 +1,93 @@
+.notification-settings-page {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.notification-settings-page h2 {
+  margin-bottom: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.label-text {
+  margin-left: 12px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Reuse switch styles from FormInput.css or redefine here */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 24px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #00A699;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Save button */
+.save-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #00A699;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+.save-btn[disabled] {
+  background-color: #8dd6ca;
+  cursor: not-allowed;
+}
+
+.save-btn:not([disabled]):hover {
+  background-color: #00887a;
+}
+.save-btn:not([disabled]):active {
+  background-color: #007a6b;
+}

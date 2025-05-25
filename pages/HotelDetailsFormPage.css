@@ -1,0 +1,114 @@
+.hotel-details-form {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.hotel-details-form h2 {
+  text-align: center;
+  color: #333;
+}
+.hotel-details-form .error {
+  color: red;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.hotel-details-form form label {
+  display: block;
+  margin: 12px 0 4px;
+  font-weight: 500;
+}
+.hotel-details-form input[type="file"],
+.hotel-details-form input[type="text"],
+.hotel-details-form input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.hotel-images-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+.hotel-images-preview img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.amenities-fieldset {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+.amenities-fieldset legend {
+  font-weight: 600;
+}
+.amenities-fieldset label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 12px;
+}
+.room-types h3 {
+  margin: 20px 0 8px;
+}
+.room-type-card {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  position: relative;
+}
+.room-type-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.remove-btn {
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #c00;
+}
+.room-image-preview {
+  margin-top: 8px;
+  width: 100px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+.add-room-btn {
+  background: #00A699;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.add-room-btn:hover {
+  background: #00887a;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  margin-top: 24px;
+  background: #003580;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background: #002d5a;
+}
+.submit-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}

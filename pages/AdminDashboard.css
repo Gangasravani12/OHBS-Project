@@ -1,0 +1,120 @@
+/* src/pages/AdminDashboard.css */
+
+.admin-dashboard {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.admin-dashboard h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: var(--font-lg);
+  margin-bottom: var(--space-lg);
+  text-align: center;
+}
+
+/* Metric Cards */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px,1fr));
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+}
+
+.metric-card {
+  background: #fff;
+  padding: var(--space-md);
+  border-radius: var(--space-sm);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.metric-card h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: var(--accent);
+}
+
+.metric-card p {
+  margin: var(--space-sm) 0 0;
+  color: var(--text);
+}
+
+/* Sections */
+.section {
+  margin-bottom: var(--space-lg);
+}
+
+.section h2 {
+  font-size: var(--font-md);
+  margin-bottom: var(--space-md);
+  color: var(--text);
+}
+
+/* Tables */
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.admin-table thead {
+  background: var(--bg-light);
+}
+
+.badge.pending {
+  background: #ffc107;
+  color: #333;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: var(--font-sm);
+}
+
+/* Action Buttons */
+.btn-approve,
+.btn-reject {
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--font-sm);
+  padding: 4px 8px;
+  margin-right: var(--space-sm);
+  border: none;
+  border-radius: var(--space-sm);
+  cursor: pointer;
+}
+
+.btn-approve {
+  background: #28a745;
+  color: #fff;
+}
+
+.btn-reject {
+  background: #dc3545;
+  color: #fff;
+}
+
+.btn-approve:hover {
+  background: #218838;
+}
+
+.btn-reject:hover {
+  background: #c82333;
+}
+
+/* src/pages/AdminDashboard.css */
+.dummy-banner {
+  background: #ffeeba;
+  color: #856404;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+  text-align: center;
+}
+

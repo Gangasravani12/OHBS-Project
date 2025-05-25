@@ -1,0 +1,17 @@
+/* src/components/SortBar.css */
+.sort-bar {
+    padding: 10px 20px;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sort-bar select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+    .sort-bar label {
+        margin-right: 10px;
+        color: #333;
+    }  
